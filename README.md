@@ -44,36 +44,31 @@ A real-time weather monitoring system built using **React** and **Node.js**. Thi
 
 Install dependencies:
 
-bash
-Copy code
+ ```bash
 npm install
 Create a .env file in the server folder and add your OpenWeatherMap API Key:
 
-bash
-Copy code
+ ```bash
 OPENWEATHER_API_KEY=your-api-key-here
 Start the backend server:
 
-bash
-Copy code
+ ```bash
 npm start
 🖥️ Frontend Setup
 Navigate to the client directory:
 
-bash
-Copy code
+ ```bash
 cd client
 Install dependencies:
 
-bash
-Copy code
+ ```bash
 npm install
 Start the frontend development server:
 
-bash
-Copy code
+ ```bash
 npm start
 Open your browser and visit http://localhost:3000 to view the app.
+
 
 📈 Data Flow and Functionality
 Weather Data Fetching:
@@ -86,26 +81,5 @@ Users can switch between Celsius and Fahrenheit, which will trigger a re-fetch o
 Chart Visualization:
 
 Weather data is visualized in charts to show trends for temperature and conditions over time.
-📂 Project Structure
-bash
-Copy code
-weather-monitoring-app/
-├── client/                    # Frontend (React.js)
-│   ├── src/
-│   ├── public/
-│   ├── App.js                 # Main React component
-│   ├── weatherChart.js         # Chart.js component for visualizing weather
-│   └── App.css                # Styling for the frontend
-│
-├── server/                    # Backend (Node.js, Express.js)
-│   ├── server.js              # Main server file
-│   └── .env                   # Environment variables for OpenWeather API
-│
-└── README.md                  # This README file
-📞 Contact
+
 For any questions or contributions, feel free to reach out at chahatnit@gmail.com
-
-css
-Copy code
-
-This single file retains all necessary formatting, structure, and content for your README. It inclu
