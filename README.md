@@ -44,29 +44,29 @@ A real-time weather monitoring system built using **React** and **Node.js**. Thi
 
 Install dependencies:
 
- ```bash
-npm install
+    ```bash
+   npm install
 Create a .env file in the server folder and add your OpenWeatherMap API Key:
 
- ```bash
-OPENWEATHER_API_KEY=your-api-key-here
+    ```bash
+   OPENWEATHER_API_KEY=your-api-key-here
 Start the backend server:
 
- ```bash
-npm start
+    ```bash
+   npm start
 🖥️ Frontend Setup
 Navigate to the client directory:
 
- ```bash
-cd client
+    ```bash
+   cd client
 Install dependencies:
 
- ```bash
-npm install
+    ```bash
+   npm install
 Start the frontend development server:
-
- ```bash
-npm start
+   
+    ```bash
+   npm start
 Open your browser and visit http://localhost:3000 to view the app.
 
 
